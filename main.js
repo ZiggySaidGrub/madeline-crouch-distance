@@ -1,7 +1,7 @@
 const ansObj = document.getElementById("ansObj");
 
 function roundToThousandth(num) {
-    return Math.round(num * 1000) / 1000;
+    return math.round(num * 1000) / 1000;
 }
 
 function update() {
