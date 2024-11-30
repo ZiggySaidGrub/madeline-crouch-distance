@@ -6,6 +6,6 @@ button.addEventListener("click", function() {
   let distance = document.getElementById("madelines").value;
   answer = distance/3.81;
   ansObj = document.createElement("p");
-  ansObj.textContent = answer;
+  ansObj.textContent = answer+" Squished Madelines Tall";
   ansDiv.appendChild(ansObj);
 });
