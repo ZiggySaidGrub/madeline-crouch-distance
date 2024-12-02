@@ -6,15 +6,23 @@
                 font-family: monospace;
                 background-color: #30353d;
             }
-            input {
+            input, select {
                 background-color: #5a789e;
+                font-family: monospace;
             }
         </style>
         <script src=https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js></script>
     </head>
     <body>
         <h1>Feet to Squished Madeline Coverter</h1>
-        <input type="number" id="distance">Ft.
+        <input type="number" id="distance">
+        <select name="unit" id="unit">
+            <option value="0">Ft</option>
+            <option value="1">In</option>
+            <option value="2">M</option>
+            <option value="3">Km</option>
+            <option value="4">Cm</option>
+        </select>
         <div id="answer">
             <p id="ansObj"></p>
         </div>
